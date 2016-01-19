@@ -1,0 +1,13 @@
+
+
+<p id="notice"><%= notice %></p>
+
+<div id="navbar" class="navbar-collapse collapse">
+  <ul class="nav navbar-nav">
+        <li><%= link_to "ログアウト", destroy_user_session_path, method: :delete %></li>
+
+  </ul>
+</div>
+<h1>マイページです！</h1>
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
