@@ -1,2 +1,6 @@
-@charset "UTF-8";
-@import "partials/*";
+@charset 'UTF-8';
+@import 'partials/test';
+
+.bordered-title {
+  border-bottom: 1px solid black;
+}
