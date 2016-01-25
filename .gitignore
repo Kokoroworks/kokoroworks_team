@@ -12,3 +12,5 @@
 !/log/.keep
 /tmp
 /vendor
+/.sass-cache
+/public/assets
